@@ -90,6 +90,7 @@
     gap: 5px;
     border: none;
     transition: all 0.2s;
+    cursor: pointer;
 }
 
 
