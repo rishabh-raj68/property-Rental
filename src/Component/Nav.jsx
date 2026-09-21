@@ -13,6 +13,7 @@ import { GiWoodCabin } from "react-icons/gi";
 import { SiHomeassistantcommunitystore } from "react-icons/si";
 import { FaTreeCity } from "react-icons/fa6";
 import { LuTentTree } from "react-icons/lu";
+import { Link } from "react-router";
 
 
 function Nav() {
@@ -26,7 +27,7 @@ function Nav() {
                 <div className="ham1">Help center</div>
             </div> : <div></div>}
             <div className="nav1">
-                <div className="logo">
+            <Link></Link>  <div className="logo">
                     <img src={logo} alt="" width="50px" />
                     <h1>Private Property Rental</h1>
                 </div>
