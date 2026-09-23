@@ -13,7 +13,7 @@ import { GiWoodCabin } from "react-icons/gi";
 import { SiHomeassistantcommunitystore } from "react-icons/si";
 import { FaTreeCity } from "react-icons/fa6";
 import { LuTentTree } from "react-icons/lu";
-import { Link } from "react-router";
+import { Link, NavLink } from "react-router";
 
 
 function Nav() {
@@ -21,16 +21,16 @@ function Nav() {
     return (
         <div id="Nav">
             {visible ? <div className="hamburger">
-                <div className="ham1">Login</div>
-                <div className="ham1">Sign Up</div>
-                <div className="ham1">List Your Home</div>
+               <Link to={"/Login"}><div className="ham1">Login</div></Link>
+              <Link to={"/Signup"}><div className="ham1">Sign Up</div></Link>
+              <Link to={"/Listing"}><div className="ham1">List Your Home</div></Link>
                 <div className="ham1">Help center</div>
             </div> : <div></div>}
             <div className="nav1">
-            <Link></Link>  <div className="logo">
+            <Link to={""}> <div className="logo">
                     <img src={logo} alt="" width="50px" />
                     <h1>Private Property Rental</h1>
-                </div>
+                </div></Link> 
 
                 <div className="search">
                     <input type="text" placeholder="Search Destination" />
@@ -38,7 +38,7 @@ function Nav() {
                 </div>
 
                 <div className="ham">
-                    <button id="btn1">List your Home</button>
+                  <Link to={"/Listing"}>  <button id="btn1">List your Home</button></Link>
                     <button id="btn2" onClick={() => {
                         setVisible(prev => !prev)
                     }}>
@@ -49,8 +49,8 @@ function Nav() {
             </div>
 
             <div className="nav2">
-                <div className="svg11"><MdOutlineWhatshot /><h3>Trending</h3></div>
-                <div className="svg11"><GiFamilyHouse /><h3>Houses</h3></div>
+             <NavLink to={""}><div className="svg11"><MdOutlineWhatshot /><h3>Trending</h3></div></NavLink> 
+             <NavLink to={"/Houses"}><div className="svg11"><GiFamilyHouse /><h3>Houses</h3></div></NavLink>  
                 <div className="svg11"><MdBedroomParent /><h3>Rooms</h3></div>
                 <div className="svg11"><PiFarm /><h3>Farm Houses</h3></div>
                 <div className="svg11"><MdOutlinePool /><h3>Pool Houses</h3></div>

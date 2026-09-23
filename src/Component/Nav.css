@@ -197,6 +197,11 @@
 .ham1:hover{
     background-color: rgba(232,230,230,0.844);
 }
+
+a.active{
+    border-bottom: 2px solid rgb(28, 26, 26);
+    margin-bottom: 5px;
+}
 @media (max-width:900px) {
     #btn1{
         display: none;

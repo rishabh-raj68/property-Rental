@@ -58,3 +58,8 @@
     border: none;
     margin-top: 30px;
 }
+#loginbtn svg{
+    width: 20px;
+    height: 20px;
+    color: white;
+}

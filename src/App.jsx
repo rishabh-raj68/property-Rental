@@ -5,6 +5,7 @@ import Home from './Component/Home/Home';
 import Login from './Component/Login/Login';
 import Signup from './Component/Signup/Signup';
 import { Outlet } from 'react-router';
+import Listing from './Component/Listing/Listing';
 
 function App(){
   return (
@@ -15,6 +16,7 @@ function App(){
     {/* <Signup/> */}
 
     <Outlet/>
+    {/* <Listing/> */}
     
     </>
   )
