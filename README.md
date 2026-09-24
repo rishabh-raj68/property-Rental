@@ -1,16 +1,80 @@
-# React + Vite
+# 🏡 Air-Bnb Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern **Airbnb-inspired web application** built using React.js. This project focuses on creating a user-friendly property rental platform where users can explore properties and, in future versions, manage listings, bookings, and authentication using the MERN stack.
 
-Currently, two official plugins are available:
+The project is currently under development, with plans to integrate a complete backend using MongoDB, Express.js, and Node.js.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+### Current Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* ⚛️ Built with React.js
+* 🎨 Responsive and user-friendly UI
+* 🏠 Property rental website interface
+* 🧩 Reusable React components
+* 🧭 Navigation between pages
+* 📱 Responsive design (ongoing development)
 
-## Expanding the ESLint configuration
+### Upcoming Features (MERN Stack)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* 🔐 User Registration and Login
+* 👤 User Authentication and Authorization
+* 🏘️ Add, Update, and Delete Property Listings
+* 🔍 Search and Filter Properties
+* 📍 Property Location Integration
+* 📅 Property Booking System
+* 💳 Payment Gateway Integration
+* 🗄️ MongoDB Database Integration
+* 🔌 RESTful APIs using Node.js and Express.js
+* 🛡️ Secure Backend and Protected Routes
+* ⭐ Property Reviews and Ratings
+* 📊 User Dashboard and Listing Management
+
+## 🛠️ Technologies Used
+
+### Frontend
+
+* React.js
+* JavaScript (ES6+)
+* HTML5
+* CSS3
+* React Icons
+* React Router (if configured)
+
+### Backend (Upcoming)
+
+* Node.js
+* Express.js
+* MongoDB
+* Mongoose
+
+### Tools
+
+* Git & GitHub
+* VS Code
+* npm
+
+## 📂 Project Structure
+
+```text
+Air-Bnb/
+│
+├── public/
+├── src/
+│   ├── Component/
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── ...
+│
+├── package.json
+├── package-lock.json
+└── README.md
+
+## 🔮 Future Vision
+
+The goal of this project is to develop a full-stack property rental platform using the **MERN stack (MongoDB, Express.js, React.js, and Node.js)**.
+
+The upcoming backend integration will support user authentication, property management, bookings, and database-driven features.
+
+Author- Rishabh Raj
+
