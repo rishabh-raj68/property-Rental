@@ -6,8 +6,8 @@ function Login() {
         <div id="login"
           onSubmit={(e) => {
             alert("login successfully.....");
-          }}
-        >
+          }}>
+        
           
             <form action="">
                  <span id="logintitle">Login Page</span>
