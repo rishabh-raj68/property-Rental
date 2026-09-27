@@ -21,7 +21,11 @@ const router = createBrowserRouter(createRoutesFromElements (
       <Route path='contact' element={<Contact/>}/>
 
    </Route>
-))
+),
+  {
+    basename: "/property-Rental"
+  }
+);
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>

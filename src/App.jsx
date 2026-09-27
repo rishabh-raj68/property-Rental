@@ -19,7 +19,7 @@ function App(){
 
     <Outlet/>
     {/* <Listing/> */}
-    <Footer/>
+    {/* <Footer/> */}
     </>
   )
 }
