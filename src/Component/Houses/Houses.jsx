@@ -2,7 +2,7 @@ import "./Houses.css"
 // import Card from "../Card/Card";
 import Card from "../Card/Card.jsx";
 import house from "../../assets/house.jpg";
-// ✅ Correct
+
 import house1 from "../../assets/housekichen.jpg";
 import house2 from "../../assets/houseliving.jpg";
 
