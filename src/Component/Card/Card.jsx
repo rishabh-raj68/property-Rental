@@ -1,8 +1,4 @@
 import "./Card.css"
-import React from "react";
-
-
-
 
 function Card({image1,image2,image3, title,price}) {
     return (
