@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import "./Home.css";
 import Card from "../Card/Card.jsx";
 import house from "../../assets/house.jpg";
-import house1 from "../../assets/houseKichen.jpg";
+import houseKichen from "../../assets/housekichen.jpg";
 import house2 from "../../assets/houseliving.jpg";
 import farmhouse from "../../assets/farmhouse2.jpg";
 import farmhouse1 from "../../assets/farmhouse1.jpg";
