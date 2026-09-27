@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import "./Home.css";
-import Card from "../Card/card";
+import Card from "../Card/Card.jsx";
 import house from "../../assets/house.jpg";
 import house1 from "../../assets/houseKichen.jpg";
 import house2 from "../../assets/houseliving.jpg";
